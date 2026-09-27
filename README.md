@@ -7,10 +7,6 @@
 - Giaquinto — matricola: **DE9000142**
 - Gismondi — matricola: **DE9000188**
 
-Repository GitHub:
-
-`https://github.com/NCIs-unina/ncis-project-work-2026-derosa-digennaro-giaquinto-gismondi`
-
 ---
 
 ## 1. Obiettivo
