@@ -41,13 +41,13 @@ topology/overblocking_topo.py
 Schema:
 
 ```text
-                    +------ h2 10.0.0.2
-                    |
-h1 10.0.0.1 --+     |
-              +-- s2 -- shared uplink -- s1 -- h4 10.0.0.4
-h5 10.0.0.5 --+                    |      victim
-                                   |
-                                   +------ h3 10.0.0.3
+                                              +------ h2 10.0.0.2
+(attacker)                                    |
+h1 10.0.0.1 --+                               |
+              +-- s2 -- shared uplink -- s1 --+ h4 10.0.0.4 (victim)
+h5 10.0.0.5 --+                               |
+                                              |      
+                                              +------ h3 10.0.0.3
 ```
 
 Più precisamente:
